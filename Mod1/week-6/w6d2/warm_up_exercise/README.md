@@ -1,11 +1,9 @@
-![](/ga_cog.png)
+
 
 ---
 Title: Mockup - Supply<br>
 Type: Morning Exercise <br>
 Duration: "0:45"<br>
-Original creators: WDI-Archer, WDI-Funke, WDI-Panthalassa<br>
-Adapted by: Kristyn Bryan, Karolin Rafalski<br>      Competencies: Basic HTML & CSS blocks, Flexbox<br>
 Prerequisites: CSS, HTML <br>
 
 ---
