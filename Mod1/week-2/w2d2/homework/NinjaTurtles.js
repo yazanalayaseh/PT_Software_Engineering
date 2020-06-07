@@ -1,10 +1,10 @@
 //For loop method 
 
-/*const NinjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+const NinjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 for(let i = 0; i<NinjaTurtles.length; i++){
     NinjaTurtles[i] = NinjaTurtles[i] .toUpperCase();
     console.log(NinjaTurtles[i]);
-}*/
+}
 
 //Another method for of loop 
 
