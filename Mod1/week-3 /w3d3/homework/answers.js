@@ -71,6 +71,9 @@
 //5- console.lgog(crazyObject.larry.characters[1].name);
 //
 //
+// Change the value of "limbo" to "null"
+// inception.reality.dreamLayer1.dreamLayer2.dreamlayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = Null;
+// console.log(inception.reality.dreamLayer1.dreamLayer2.dreamlayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo);
      
 }
 
