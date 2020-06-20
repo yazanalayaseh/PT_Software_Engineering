@@ -63,7 +63,14 @@
 //  };
 // console.log(myName.hobby);
 // 
-// 
+// Crazy Object
+//1- console.log(crazyObject.taco.salsa[5]);
+// 2-console.log(crazyObject.larry.quotes[0]);
+//3- console.log(crazyObject.larry.characters[2].favourtieHobby);
+//4- console.lgo(crazyObject.larry.nickname[1]);
+//5- console.lgog(crazyObject.larry.characters[1].name);
+//
+//
      
 }
 
