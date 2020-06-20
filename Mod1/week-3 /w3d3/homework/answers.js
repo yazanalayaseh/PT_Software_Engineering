@@ -48,3 +48,22 @@
    //  }
 
 
+// Part2
+//   const Rainbow_colors = ['Red', 'Oranged', 'Yellow', 'Green', 'Blue', 'Indigo'];
+//   console.log(Rainbow_colors[4]);
+//   
+//  Make an object that is called your name and holds the information about your favorite food, a hobby, the name of the town 
+//  that you lived in currently, and your favorite datatype:
+//   
+//  const myName = {
+//  hobby: "Powerlifiting",
+//  FavFood: "Chinese food",
+//  Town: "Polaris",
+//  DataType: "Boolean"  
+//  };
+// console.log(myName.hobby);
+// 
+// 
+     
+}
+
