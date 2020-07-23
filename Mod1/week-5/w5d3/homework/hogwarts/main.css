@@ -12,3 +12,7 @@ h1{
 .secret{
     opacity: 0.5;
 }
+table, th, td{
+    border: 1px solid grey;
+    text-align: center;
+}
