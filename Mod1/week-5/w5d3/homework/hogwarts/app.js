@@ -33,3 +33,25 @@ $container.append($trThursday);
 const $trFriday= $("tr/>").append("<td>Friday</td><td>Herbology, Divination, History of Magic, Charms, Potions, Transfiguration, Defense Against the Dark Arts, Quidditch practice, etc</td>");
 $container.append($trFriday);
 
+
+
+$('li:contains("Butter Beer")').remove();
+
+$h4animal.css('color', 'indigo');
+
+$('h4:contains'("cat")').remove();
+$h5.before($h4animal);
+$('h4:contains'("cat")').remove();
+$h4.before($h4animal);
+
+$('li:contains'("leash")').addclass("cabbage");
+$('li:contains'("leash")').removeclass("cabbage");
+
+
+$('h5').remove();
+$h5= $('<h5/>').text('fall 2018');
+$ul.after($h5);
+
+$('ul:first').prepend("<li>Butter Beer</li>");
+$('ul').attr('trunk', 'chest');
+
