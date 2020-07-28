@@ -1,0 +1,33 @@
+.Grenade
+{
+  background-color: orange;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  float: left;
+  width: 400px;
+  vertical-align: middle;
+  display: inline-block
+}
+
+.prism{
+  background-color: red;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  float: left;
+  width: 390px;
+  vertical-align: middle;
+  display: inline-block
+}
+.global{
+  background-color:green;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  float: left;
+  width: 400px;
+  vertical-align: middle;
+  display: inline-block
+}
+
