@@ -1,0 +1,69 @@
+.Grenade
+{
+  background-color: orange;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  float: left;
+  width: 400px;
+  vertical-align: middle;
+  display: inline-block
+}
+
+.prism{
+  background-color: red;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  float: left;
+  width: 390px;
+  vertical-align: middle;
+  display: inline-block
+}
+.global{
+  background-color:green;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  float: left;
+  width: 400px;
+  vertical-align: middle;
+  display: inline-block
+}
+
+.tiles {
+  height: 100%;
+  margin-top: 50px;
+}
+
+.tile {
+  width: 300px;
+  height: 500px;
+  float: left;
+  padding: 1px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+.tile img:hover {
+    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2); /* IE 9 */
+    -webkit-transform: scale(1.2, 1.2);
+}
+
+.flex {
+  flex: 1 1 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  padding: 5px 2px;
+}
+
+.footer {
+  padding: 5px 2px;
+}
