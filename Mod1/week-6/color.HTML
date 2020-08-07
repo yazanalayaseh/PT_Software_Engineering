@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+  .square{
+    width: 20px; 
+    height:20px; 
+    float:left;
+  }
+  #my-palette, #color-palette{
+    width: 50%;
+    float:left;
+    height:200px;
+  }
+</style>
+
+</head>
+<body>
+
+<button id="generate">GENERATE</button>
+<div id="container">
+	<div id="color-palette"></div>
+	<div id="my-palette"></div>
+</div>
+<script>
+    $(document).ready(function(){
+        const $colorPalette = $('#color-palette');
+        const $myPalette = $('#my-palette');
+        const $generate = $('#generate');
+        
+        const makePalette = () => {
+            $colorPalette.empty();
+            
+            for(let i = 0; i < 150; i++){
+                const $square = $('<div>');
+                $square.addClass('square');
+                $colorPalette.append($square);
+                
+                const red = Math.floor(Math.random() * 255);
+                const green = Math.floor(Math.random() * 255);
+                const blue = Math.floor(Math.random() * 255);
+                const color = 'rgb('+ red +', ' + green +', '+  blue  +')';
+                $square.css('background-color', color);
+            }
+            //alert('where am i');
+        }
+        const addColor = (event) => {
+            //console.log($(event.currentTarget).css('background-color'));
+            
+            const color = $(event.currentTarget).css('background-color');   
+            const $square = $('<div>');
+            $square.addClass('square');
+            $square.css('background-color', color);
+            $myPalette.append($square)
+        }
+        
+        $generate.on('click', makePalette);
+        $(document).on('click', '.square', addColor);
+    });
+    
+</script>
+</body>
+</html>
